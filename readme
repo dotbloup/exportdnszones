@@ -1,0 +1,5 @@
+####
+batch export your zone settings from your actual BIND primary namerserver to a secondary nameserver using a shell script.
+
+1. Run sh dnsscript.sh within /var/named/ or where your zone files are located on your primary server
+2. copy the content of export.list to your /var/named.conf of your secondary nameserver.
